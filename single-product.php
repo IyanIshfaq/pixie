@@ -192,7 +192,7 @@ https://www.tooplate.com/view/2114-pixie
                     LEFT JOIN category ON post.category = category.category_id
                     LEFT JOIN user ON post.author = user.user_id 
                     WHERE category = {$cat_id}
-                    ORDER BY post.post_id DESC LIMIT {$offset},{$limit}";
+                    ORDER BY  DESC LIMIT {$offset},{$limit}";
                     $result = mysqli_query($conn,$sql) or die ("Query unsuccessfully");
                     if(mysqli_num_rows($result)>0){
                            while($row = mysqli_fetch_assoc($result)){

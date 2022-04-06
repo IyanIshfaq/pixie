@@ -86,6 +86,7 @@ https://www.tooplate.com/view/2114-pixie
                 {
                    $sear_term=mysqli_real_escape_string($conn,$_GET['search']); 
                 }
+              
                 ?>
           <div class="col-md-12">
             <div class="section-heading">

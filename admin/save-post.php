@@ -27,7 +27,7 @@ if(isset($_FILES['fileToUpload']))
   	print_r($errors);
   	die();
   }
-}
+} 
 
 
 session_start();
